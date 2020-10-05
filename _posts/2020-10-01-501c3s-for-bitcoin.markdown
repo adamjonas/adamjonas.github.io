@@ -1,0 +1,89 @@
+---
+layout: post
+title:  "Starting a Bitcoin 501(c)(3)"
+date:   2020-10-01 16:57:39 -0500
+categories: bitcoin 501(c)(3) funding
+---
+This post outlines research to create an independent 501(c)(3) nonprofit organization to help fund deserving Bitcoin contributors.
+
+## Why?
+
+A 501(c)(3) organization provides a low-friction way for donors to fund Bitcoin development. Even though the pool of active contributors is relatively small ([only 25 contributors made 20+ PRs in Bitcoin Core over the last year][top 20 contributors]), it is difficult for potential patrons to give to deserving Bitcoin developers without investing a lot of time and energy. Donors can be spared the process of screening candidates, drawing up contracts, or administering a payment schedule. That enables private donations that currently [aren’t a notable portion of the funding landscape][bitmex who funds bitcoin devs]. This organization can serve as a trustworthy intermediary that takes little/no payment for its service.
+
+## Starting a 501(c)(3)
+
+The bad news:  
+This process is unpredictable and could take 12-18 months just to receive the rejection letter.
+
+  - Yorba [detailed its denial][yorba denial] in 2014.
+  - This [unnamed cryptocurrency group][unknown group denial] was denied in February 2020.
+
+The good news:
+  - This was much [harder to do before 2017][A New Era for Free Software Non-Profits].
+
+It worked for the Zcash Foundation, which received [501(c)(3) approval in 2017][zcash 501c3 approval]. Their [1023 filing][zcash 1023] serves as a useful template. Their approval process took three months.
+
+The [Bitcoin Private Foundation][Bitcoin Private Foundation] has been exempt since June 2019. The [Ethereum Classic Foundation][Ethereum Classic Foundation] has been exempt since August 2019. The [Libbitcoin Institute][Libbitcoin Institute]’s application is currently pending.
+Open software organizations such as the [GNOME Foundation][GNOME Foundation] ([determination letter][gnome determination letter]), [Mozilla Foundation][Mozilla Foundation] (exempt since 2004), [Apache Software Foundation][Apache Software Foundation] (exempt since 2001), [Linux Kernel Organization][Linux Kernel Organization] (exempt since 2007), [WordPress Foundation][WordPress Foundation] (2009), [Django Software Foundation][Django Software Foundation] (2014) and more operate under a 501(c)(3) status.
+
+_Note_: An organization applying for 501(c)(3) can still accept donations and operate. If the petition is accepted, donations can be deducted even if the funds were given before the approval date.
+
+## Other ways to be able to receive tax-deductible donations
+
+Some organizations might be open to sponsoring a “program” under their umbrella. Yearly donations of more than $250K is about the cut-off where an independent org makes sense. Still, there are several advantages to partnering with an operational 501(c)(3), namely assured approval, speed of setup, and leaning on others’ experience as administrators. It’s also possible to start as a program of an umbrella org and simultaneously file the paperwork to create an independent 501(c)(3).
+
+If going this route:
+  - Human Rights Foundation via [Alex Gladstein][Alex Gladstein] or even the [Electronic Frontier Foundation][Electronic Frontier Foundation].
+  - [Open collective][Open collective] is a 501(c)(3) umbrella org as a service. They charge 5% for admin fees and another 5% to handle the fundraising portion.
+
+There are a few small-time Bitcoin 501(c)(3)s (e.g., [1][BITCOIN USERS GROUP], [2][DENVER BITCOIN CENTER], [3][blockchain institute], [4][SV BLOCKCHAIN RESEARCH], [5][BLOCKCHAIN COLLABORATIVE]) that might be open to partnering.
+
+_Note_: Questions to ask an umbrella org:
+  - What are your admin fees? (Standard range is 5 - 20%)
+  - How do they handle crypto donations? (Immediately convert to fiat or hold asset?)
+  - If we create our own 501(c)(3), what would the transfer fee be? (Watch out for steep penalties - should be prenegotiated)
+  - Once funds arrive, how long until they are pushed out to the recipient? (Some orgs have a lag)
+
+## Why hasn’t a Bitcoin dev foundation been done before?
+
+It has. The [Bitcoin Foundation][Bitcoin Foundation] was rejected by the community for its lack of financial transparency and dissolved in 2015. The [“B” Foundation][The B] was similarly rejected by the community in 2018.
+
+## The process is littered with gotchas
+
+There is a public support test for 501(c)(3)s. An org can start as a private foundation for public purposes but needs to work towards becoming a public charity within the first five years, or donations will not tax-deductible. The public support test [requires ⅓ of donations to come from the general public][irs public support test]. Essentially public charities need grassroots support to pass the test. Losing tax-exempt status is proactive rather than retroactive if the org fails the test.
+
+## Please do this
+
+Bitcoin needs a variety of ways to fund the ongoing maintenance and improvement of the Bitcoin infrastructure. While donations to [HRF][HRF] and [MIT DCI][MIT DCI] are tax-deductible, there remains plenty of opportunity for more orgs with differing philosophies to spring up.
+
+[top 20 contributors]: https://github.com/bitcoin/bitcoin/graphs/contributors?from=2019-10-01&to=2020-10-01
+[bitmex who funds bitcoin devs]: https://blog.bitmex.com/who-funds-bitcoin-development/
+[yorba denial]: https://blogs.gnome.org/jnelson/2014/06/30/the-new-501c3-and-the-future-of-free-software-in-the-united-states/
+[unknown group denial]: https://drive.google.com/file/d/1aUzrIbW8pcRC19rzeviGJAzHK7dc1qpE/view
+[A New Era for Free Software Non-Profits]: https://www.softwarefreedom.org/blog/2017/sep/21/new-era-nonprofits/
+[zcash 501c3 approval]: https://www.zfnd.org/blog/zcash-foundation-officially-nonprofit/
+[zcash 1023]: https://www.zfnd.org/about/irs-docs/Zcash%20Foundation%201023.pdf
+[Bitcoin Private Foundation]: https://projects.propublica.org/nonprofits/organizations/831305957
+[Ethereum Classic Foundation]: https://projects.propublica.org/nonprofits/organizations/842727440
+[Libbitcoin Institute]: https://libbitcoininstitute.org/
+[GNOME Foundation]: https://www.gnome.org/foundation/
+[gnome determination letter]: https://wiki.gnome.org/FoundationBoard?action=AttachFile&do=view&target=Gnome+Foundation+IRS+501%28c%29%283%29+Determination+letter.PDF
+[Mozilla Foundation]: https://foundation.mozilla.org/en/who-we-are/
+[Apache Software Foundation]: https://www.apache.org/foundation/
+[Linux Kernel Organization]: https://www.kernel.org/nonprofit.html
+[WordPress Foundation]: https://wordpressfoundation.org/
+[Django Software Foundation]: https://www.djangoproject.com/foundation/
+[Alex Gladstein]: https://twitter.com/gladstein
+[Electronic Frontier Foundation]: https://www.eff.org/
+[Open collective]: https://opencollective.com/foundation
+[BITCOIN USERS GROUP]: https://projects.propublica.org/nonprofits/organizations/815027643
+[DENVER BITCOIN CENTER]: https://projects.propublica.org/nonprofits/organizations/472396493
+[blockchain institute]: https://weteachblockchain.org/
+[BLOCKCHAIN COLLABORATIVE]: https://projects.propublica.org/nonprofits/organizations/832478837
+[SV BLOCKCHAIN RESEARCH]: https://projects.propublica.org/nonprofits/organizations/832154810
+[Bitcoin Foundation]: https://en.wikipedia.org/wiki/Bitcoin_Foundation
+[Bitmex Bitcoin Foundation]: https://blog.bitmex.com/the-bitcoin-foundation/
+[The B]: https://theb.foundation/
+[irs public support test]: https://www.irs.gov/charities-non-profits/exempt-organizations-annual-reporting-requirements-form-990-schedules-a-and-b-public-charity-support-test
+[HRF]: https://hrf.org/donate-bitcoin/
+[MIT DCI]: https://dci.mit.edu/
