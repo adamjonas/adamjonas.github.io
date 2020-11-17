@@ -68,10 +68,10 @@ remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
 locale: en-US
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+url: https://adamjonas.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo: /images/fiat-globe.jpg # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
-read_time: true # reading time estimates, e.g. true
+read_time: false # reading time estimates, e.g. true
 words_per_minute: 200
 mathjax:
   enable: # MathJax equations, e.g. true, false (default)

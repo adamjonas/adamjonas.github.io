@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Starting a Bitcoin 501(c)(3)"
-date:   2020-10-01 16:57:39 -0500
+date:   2020-10-18 16:57:39 -0500
 categories: bitcoin 501(c)(3) funding
 ---
 This post outlines research to create an independent 501(c)(3) nonprofit organization to help fund deserving Bitcoin contributors.
