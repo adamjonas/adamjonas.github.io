@@ -1,0 +1,120 @@
+---
+layout: post
+title:  "Bitcoin CoreDev reflections 2019-2020"
+date:   2020-11-23 09:57:39 -0500
+categories: bitcoin coredev retro
+image:
+  path: /images/word_cloud.jpg
+---
+In January, John Newbery sent out a Bitcoin Core contributor survey in preparation for the March [Coredev](https://coredev.tech/) meeting, which was later canceled due to COVID-19. Given that the year is coming to a close, I thought it might be good timing to retrospect on those responses even though the responses are now somewhat outdated to reflect on the goals for 2020 and prepare for another survey in early 2021.
+
+For those that prefer video to the written word, I've prepared a 10-minute presentation. (The contents are roughly the same.)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QGUv7nb5Wis?rel=0" frameborder="0" allow="clipboard-write; encrypted-media; modestbranding;" allowfullscreen></iframe>
+
+The survey consisted of 10 questions, which included:
+  - How happy were you with progress in Bitcoin Core in 2019? (score 1-5)
+  - How happy were you with your own contributions? (score 1-5)
+  - What went well in 2019? This can be about the project or process or your individual achievements.
+  - Is there anything that frustrated or disappointed you about the Bitcoin Core project or your own contributions in 2019?
+  - What do you hope will happen in Bitcoin Core in 2020? Try to rank your priorities.
+  - What do you personally hope to achieve with Bitcoin Core in 2020? Try to rank your priorities.
+  - Is there anything you’d change about the process/project that would help those things happen?
+  - What is one thing that would make you happier or more productive?
+  - If you had a team of 2 engineers working on one Bitcoin Core project, what would you assign them to?
+  - What topics would you like to discuss at the upcoming Bitcoin coredev meeting?
+
+31 respondents filled out the survey.
+
+I've pinned a word cloud of the responses as the banner at the top.
+
+When asked to rate how happy the respondents' were with overall 2019 contribution (on a scale of 1-5), the mean was 4, and the median was also 4.
+
+Project highlights from 2019 included:
+  - Wallet (avoid reuse, watchonly, PSBT, descriptors) - mentioned 7 times
+  - New contributors (More welcoming space, PR Review Club) - mentioned 3 times
+  - Stable releases (no serious bugs shipped. Consensus still works! ) - mentioned 3 times
+  - Taproot / taproot review club - mentioned 2 times
+  - Build system (guix)
+  - Assumeutxo
+  - Building on Windows has become a mature part of the CI Package relay progress
+  - Misc P2P
+  - Quieting down of refactoring tasks
+
+Project areas for improvement from 2019 included:
+  - The progress of BIP157 - mentioned 3 times
+  - The progress of Process Separation - mentioned 3 times
+  - P2P changes/review efforts - mentioned 2 times
+  - PRs would sit unreviewed for a long time before people started reviewing them - mentioned 2 times
+  - Signet progress
+  - Hardware wallet support progress
+  - Tripping over each other a lot, no sense of focus
+
+When asked to rate how happy the respondents' were with their personal 2019 contribution (on a scale of 1-5), the mean dropped to 3.55, and the median remained at 4.
+
+Personal highlights of 2019 included:
+  - I am happy with the review I did - mentioned 5 times
+  - Generally exceeded expectations - mentioned 4 times
+  - I was happy that I learned lots of new stuff
+
+Personal areas for improvement from 2019 included:
+  - Balance time with other commitments / external factors - mentioned 4 times
+  - My PRs (or PRs I care about)  didn’t get reviewed - mentioned 4 times
+  - I need to find a better way to collaborate with people that doesn't involve rewriting their PRs from scratch myself.
+  - More concept/approach ACKs before full reviews.
+  - Got stuck reviewing difficult/big PRs.
+  - More would have been possible. Lost focus, missing momentum makes things delay.
+  - Not enough time spent reviewing.
+  - I think my work ethic was fairly poor this year.
+  - My efforts have been misinterpreted.
+
+Review was a central theme found in nearly all of the responses. The word "review" 80 times among the 31 answers. Below are some quotes bucketed (by me) into themes.
+
+Progress:
+- "Slow progress, as expected, but still not satisfying. :)"
+- "We are mostly branded by how much progress we made during corporate software projects (or other OSS). Bitcoin Core has its own pace and quality management and I guess I'm still adjusting to it."
+- "Review process is a bit slow, better coordination or better visibility of reviewers willingly and available on a given time period"
+- "More people became interested in the wallet and began reviewing the large changes being made to it. We have made significant strides in updating the wallet"
+
+Importance of review:
+- "Although the review club is definitely helping, we're still bottlenecked by a lack of reviewers. Many PRs hardly get any review, and sometimes the small refactors attract a lot of attention while the more serious changes don't (because they're harder to review). Worst if these need rebase all the time."
+- "I always find the feedback on PR's etc. enlightening."
+
+Frustration:
+- "I don't recall specific examples, but I saw several PRs closed by their authors apparently because they thought they weren't receiving enough attention (i.e. might never be merged). Every time I see something like that for a legitimate PR, I get a bit angry, followed later by disappointment (partly in myself for not contributing to reviews much)."
+- "I think we need an injection of enthusiasm and motivation, which is easier said than done."
+- "Lack of direction/leadership (the classic problem), especially on BIP157 and process separation"
+- "I am a bit disappointed about the pull requests that I want to see make progress, but are sort of stuck in limbo. Partly I need to blame myself for not picking up my own pull requests or reviewing other's pull requests. But when there is little interest from other reviewers it is hard to put up the motivation to pick up older stuff."
+- "I think (we need) longer term goals, which help bring the contributors together and give everyone motivation to code and review."
+
+Recency effect:
+- "I sometimes wish github displayed PRs in another order than typical "newest on top" by default..."
+- "It's sometimes frustrating that PRs get kind of lost and ignored after a few days passed, even if it was already reviewed and you put in the requested changes. In the other hand, whenever this happened I asked after some time (like weeks) what else I can do for a PR and it got merged quickly after. Still I could \[i]magine that this very slow process puts potential new contributor off and they could feel neglected."
+
+High Priority Review List:
+- "I am somewhat surprised how little weight it often seems to carry that a PR is put on high priority. There does not seem to be much activity triggered by it."
+- "Lately I've been looking primarily at "high priority for review" as a guide \[on] what to focus on instead."
+- "High priority for review" doesn't seem to be doing the job it's supposed to (focussing review on things we agree are important)."
+
+Concentration of review:
+- "I'll happy to coordinate with other reviewers to focus on PR at the same time, to avoid getting back and forth on PRs with month holes between review."
+- "The only way to really make significant progress is for a critical mass of people to work on the same thing at the same time. We don't seem to do a very good job at making that happen."
+
+Offering an opinion:
+- "Also sometimes I feel like people don't post anything when they are indifferent or tend to a NACK. I would like to encourage that because even if the feedback is negative or just 'I don't care about this' it shows someone has taken a look and given an opinion that can develop into more."
+- "Nobody wants to influence others in a negative way but there is also a backlog of >300 open PRs that need to be managed somehow and maybe this can lead to a faster turnaround time. This also makes me reconsider the apache voting system which was suggested in the past. If reviewers have an easy way to express their opinion then maybe they would do it more often."
+- "It would be great if we had a system for getting concept and approach ACKs. PRs like #14053 (address index) #16442 (bip157 filters) and also some Suhas, Gleb, and Jeremy Rubin PRs have been victims of bad project management. The PRs get opened and don't get feedback, despite people having actually having opinions about them. It would be good if there was some system for encouraging initial feedback, maybe a straw-poll period when people could be encouraged to give their first impressions of a PR. Or maybe there could be an adopt-a-PR or lead-reviewer program where some person other than the PR author volunteers to be responsible for gathering feedback about a PR and trying to post an objective writeup of what the advantages/disadvantages of the change seem to be."
+
+PR staging:
+- "Create a more formalized pipeline so that we could say how far from merge each PR was (if it's destined to be merged) and so it'd be clear exactly what step next needs to be taken for it to reach the next stage in the pipeline. Although I'm not suggesting gamification, I do wish that PRs had something like RPG experience points or level-up quests so that authors and advocates could focus on just one thing at a time that might take only a few hours of work."
+
+Conflicting priorities:
+- "There seems to be a constant battle between "refactors are good and are improving the code quality" and "refactors are getting in the way and stopping progress from happening".  I think we haven't done a good job at reconciling those positions and keeping everyone happy."
+
+Shying Away From the Hard Stuff:
+- "I'm disappointed that coin selection changes are not being reviewed. There are many changes to coin selection that I and others would like to do, but coin selection is considered to be a scary part of the code that people are hesitant to touch."
+
+Tooling:
+- "I think tooling for managing PRs could definitely be better. It would be nice if you could look a PR in a glance and see how many acks it has, how close it is to being merged, what unanswered questions there are and who needs to respond to them."
+
+Thank you to John Newbery for sending out this survey in January. Surveys of this sort are usually more valuable when done consistently over time and contrasted, so I look forward to sending out a similar survey in 2021 and presenting the results.
