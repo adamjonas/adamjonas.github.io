@@ -140,7 +140,7 @@ defaults:
 # Site Author
 author:
   name: Jonas
-  picture: /images/jonas.jpg
+  picture: # /images/jonas.jpg
   email: jonas at chaincode.com
   twitter: adamcjonas
   links:
