@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "How to Help Secure Bitcoin's Immediate Future"
+date:   2021-01-07 14:17:39 -0500
+categories: bitcoin releases testing
+image:
+    path: /images/bitcoin-safe.png
+---
+[Working in education](https://residency.chaincode.com/) affords me the opportunity to meet lots of prospective contributors who are eager to contribute to Bitcoin. In [Working in Public](https://www.amazon.com/dp/0578675862/), Nadia Eghbal does an excellent job describing the dynamics of large-scale open-source projects and Bitcoin Core suffers from many of the challenges and extractive contributions captured in the book. Recently, I was talking with [Jarol](https://github.com/jarolrod/), an up-and-coming prospect, on how to add value to the project. It’s a natural first reaction for new contributors to feel the urge to fire up their text editor and open a pull-request. Writing code feels creative and getting code merged into Bitcoin Core delivers a dopamine hit that can keep a [contributor chasing for a long time](https://github.com/bitcoin/bitcoin/graphs/contributors). From what I’ve observed, the best way to make an immediate impact on Bitcoin Core only has one road to success. Review.
+
+Proper review of Bitcoin Core is a matter of context. An accomplished C++ programmer may be able to spot syntax errors or even suggest performance improvements, but Bitcoin Core’s code is so sprawling and idiomatic that it takes a lot of upfront investment to get a lay of the land. However, nearly anyone who uses Bitcoin and knows how to get to their terminal can still contribute. It’s not as sexy as writing your own patch, but it’s even more valuable. Test others’ code.
+
+The call for you (yes, you) to help as a contributor is timely. The latest release candidate for version 0.21 was just tagged and is ready for testing. And, oh boy, is 0.21 the right time for you to get involved. It’s jam-packed with changes that need to be run on your operating system with your hardware. Database changes? Welcome [SQLite](https://github.com/bitcoin/bitcoin/pull/19077). A new network to test on? Hello, [Signet](https://github.com/bitcoin/bitcoin/pull/18267). Have you heard that Tor v2 is being deprecated? The [upgrade to Tor v3](http://github.com/bitcoin/bitcoin/pull/19954) is in 0.21. What about the wallet? [Total re-write](https://achow101.com/2020/10/0.21-wallets). Have there been changes in how we fetch transactions? Totally redone. New RPCs? Obviously. With all of these changes, we need you. Like right now.
+
+There are a few ways to help depending on how much you are willing to give or your expertise. If you already run a node (or would like to), upgrading to [0.21.0rc5](https://github.com/bitcoin/bitcoin/releases/tag/v0.21.0rc5) would be a big help. Jarol [prepared some things](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/0.21-Release-Candidate-Testing-Guide) to check out that would be helpful to run to make sure everything goes smoothly.
+
+It’s up to all of us to make sure that Bitcoin is the best it can be. While number goes up and schnorr/taproot activation is easy to get excited about, it takes a lot of work to ensure that every release safely bridges us to the future. [Linus's law](https://en.wikipedia.org/wiki/Linus%27s_law) tells us that "given enough eyeballs, all bugs are shallow." We need your eyes (and your computer) to make sure that 0.21 is as good as it can be. [Come lend a hand](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/0.21-Release-Candidate-Testing-Guide)!
+
+Many thanks to [fanquake](https://github.com/fanquake), [jonatack](https://github.com/jonatack), [Dhruv](https://github.com/dhruv), [Larry](https://github.com/larryruane), [Jamal](https://github.com/jamaljsr), [Gloria](https://github.com/glozow), and [0xb10c](https://github.com/0xb10c) who have helped look this over, and of course, to [Jarol](https://github.com/jarolrod/) (who is currently looking for employment).
