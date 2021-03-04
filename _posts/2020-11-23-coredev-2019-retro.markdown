@@ -12,6 +12,18 @@ For those that prefer video to the written word, I've prepared a 10-minute prese
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QGUv7nb5Wis?modestbranding=1;rel=0" frameborder="0" allow="clipboard-write; encrypted-media;" allowfullscreen></iframe>
 
+## 2019 Activity
+
+- 1789 PRs were opened against the master branch (compared to 1910 in 2018 and 1716 in 2017)
+- ...1167 PRs were merged against master (1244 in 2018, 1152 in 2017)
+- ...from 149 unique PR authors (179 in 2018, 143 in 2017)
+- ...including 71 first-time authors (115 in 2018, 92 in 2017)
+- ...there were 32868 review comments (31989 in 2018, 27598 in 2017)
+- ...from 311 regular reviewers\* (347 in 2018, 321 in 2017)
+- ...and 443 first-time reviewers (667 in 2018, 556 in 2017)
+
+\* (a regular reviewer is someone who has left >= 5 review comments)
+
 ## The Questions
 
 The questionnaire consisted of 10 questions, which included:

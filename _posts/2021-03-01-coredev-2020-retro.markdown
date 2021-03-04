@@ -1,0 +1,242 @@
+---
+layout: post
+title:  "Bitcoin CoreDev reflections 2020-2021"
+date:   2021-03-04 09:57:39 -0500
+categories: bitcoin coredev retro
+image:
+  path: /images/wordcloud_2021_circle.jpg
+---
+For a second year running, regular Bitcoin Core contributors received a survey to surface priorities and ensure that people feel that they're able to contribute effectively. Below is a similar presentation of the results in a format similar to [last year's survey](/bitcoin/coredev/retro/coredev-2019-retro/).
+
+## 2020 Activity
+
+- 1928 PRs were opened against the master branch (compared to 1789 PRs in 2019, 1910 in 2018, 1716 in 2017)
+- ...1257 PRs were merged against master (1167 PRs in 2019, 1244 in 2018, 1152 in 2017)
+- ...from 151 unique PR authors (149 in 2019, 179 in 2018, 143 in 2017)
+- ...including 76 first-time authors (71 in 2019, 115 in 2018, 92 in 2017)
+- ...there were 41352 review comments (32868 in 2019, 31989 in 2018, 27598 in 2017)
+- ...from 346 regular reviewers\* (311 in 2019, 347 in 2018, 321 in 2017)
+- ...and 408 first-time reviewers (443 in 2019, 667 in 2018, 556 in 2017)
+
+\*A regular reviewer must have left >= 5 comments
+
+## The Questions
+
+The questionnaire consisted of 12 questions, which included:
+
+- How happy were you with progress in Bitcoin Core in 2020? (score 1-5)
+- How happy were you with your own contributions? (score 1-5)
+- What went well in 2020? This can be about the project or process or your individual achievements.
+- Is there anything that frustrated or disappointed you about the Bitcoin Core project or your own contributions in 2020?
+- What do you hope will happen in Bitcoin Core in 2021? Try to rank your priorities.
+- What do you personally hope to achieve with Bitcoin Core in 2021? Try to rank your priorities.
+- Is there anything you’d change about the process/project that would help those things happen?
+- What is one thing that would make you happier or more productive working on Bitcoin Core?
+- How connected do you feel to the other contributors of the project? Do you have any ideas on how to better sync with them?
+- Would you be willing to mentor another contributor?
+- What aspect of Bitcoin or Bitcoin Core would you like to learn more about?
+- If/when there are face-to-face meetings with other Bitcoin Core contributors again, what topics would you like to discuss?
+  
+## The responses
+
+27 contributors (-4 from 2019) completed the survey. A word cloud from their comments is posted as a banner at the top.
+
+When asked to rate how happy they were with the project in 2020 (on a scale of 1-5), the mean declined slightly to 3.77 (-0.23 from 2019), and the median remained at 4 (+0.0).
+
+#### Project highlights from 2020 included
+
+- Welcoming new contributors (mentioned by 4 others)
+- All the features that made it into 0.21 +3
+- Schnorr/taproot got merged +3
+- Descriptor wallets/sqlite wallets +2
+- Transaction request overhaul (and other p2p improvements) +2
+- Signet +1
+- no major bugs or consensus failures! +1
+- Tor v3 address support +1
+- Better code quality +1
+- Funding +1
+- PR review club +1
+- P2P meeting +1
+- Moving to C++17
+- Pruning more dependencies
+- Separating the GUI repo
+- CI improvements around flaky tests
+- GUIX progress
+
+When asked to rate how happy the respondents' were with their personal 2020 contribution (on a scale of 1-5), the mean dropped slightly to 3.41 (-0.14 from 2019), and the median remained at 4 (+0.0).
+
+#### Areas of frustration/disappointment in 2020 included
+
+- Some meaningful projects are stuck by lack of reviewers (multiprocess, performance changes, assumeutxo, BIP324, mempool refactoring, complicated P2P code, coin selection and PSBT specifically mentioned) (mentioned by 13 others)
+- Missing Core dev meeting to discuss things more in-person +2
+- More focus on code quality +1
+- More PRs merged or closed +1
+- Hardware wallet progress +1
+- CI struggles/more robust MSVC-based CI +1
+- Taproot activation +1
+- Wish the work got more attention +1
+- Review of point releases/backports +1
+- Tangible milestones/clear priorities/focus +1
+- GitHub (spam and lack of proper tooling) +1
+- Finding more time to dedicate to the project +1
+- Some of the medium/big features could have taken more time and review, especially those merged closer to the release date +1
+- Transparency about review / merge status
+- Loneliness of working on OSS project
+- #bitcoin-core-dev irc meetings are not utilized effectively
+- Unclear when refactorings are OK and not OK
+- Some contributors are not very receptive to feedback/review
+
+#### Regarding Goals/Priorities for 2021
+
+- Taproot Activation (mentioned by 15 others)
+- Better code organization/separation (jnewbery's net/net_processing split, dongcarl's work in de-globalizing chainstate and separating out the consensus library) +8
+- AssumeUTXO project (and improvements to IBD) +5
+- Erlay +4
+- Gitian -> Guix transition +4
+- HWI +3
+- I2P and CJDNS support +3
+- GUI (QT upgrade, drifting to QML, concurrency issues, more mutual integration with a designer community) +3
+- Increase compatibility and interoperability with other wallets +2
+- BIP324 +1
+- Overhaul coin selection in the wallet +1
+- C++17 codebase cleanup +1
+- Miniscript +1
+- Multiprocess +1
+- Altnet +1
+- Package Relay +1
+- Fuzzing [afl++3 integration, write more test cases, collect data to see how fuzzing helps us and how we can best allocate CPU to make the most use of it] +1
+- Full-RBF +1
+- No major bugs +1
+- Transaction rebroadcast +1
+
+#### Changes to improve the process/project
+
+- Coordinated review and more transparency around PR status (i.e. process tags/labels) +3
+- More roadmaps like the draft PRs and issues currently used +1
+- A clear set of priorities that would unify contributors
+- Some people taking more project management-y roles on larger sub-topics
+- Better documentation and explainers of the complicated inner workings would help
+- Decrease the number of individual projects via smaller tickets that can be distributed
+- Small, reviewable chunks and be reactive to avoid reviewers forgetting context
+- A project board where each person has a card to describe their priorities
+- Better documenting release management tools and processes
+- Wumpus decentralizing the lead role
+- Normalizing the NACK rather than the cultural norm of ignoring a problematic PR
+- A simple way to find things that are worth contributing PRs on
+
+#### Mentorship
+
+Mentorship is one way to accelerate the acculturation and technical onboarding of new devs, who multiple respondents identifited as bottleneck of the project.
+
+When asked whether they would be willing to mentor:
+
+- 66% responded "yes, that is of interest"
+- 33% answered "no, it wasn't for them"
+
+#### Interested in Learning More About
+
+There were a number of topics that contributors would like to learn more about, including:
+
+- Networking/P2P +6
+- Script execution +3
+- Lightning +1
+- Taproot +1
+- Build system (Autotools) +1
+- Consensus and validation +1
+- Descriptor wallets +1
+- Convenient and robust way to do multi-sig flows
+- GUI/QT code
+- Understanding of internal interfaces
+- Libsecp256k1
+- Coin cache
+- Coin selection
+- Compact blocks
+- The math (finite fields, elliptic curves)
+- Hardware support
+- Fuzz testing tools
+- Cryptography
+
+#### At the next Coredev.tech
+
+If/when there are face-to-face meetings again, respondents would like to discuss:
+
+- Making review process more attractive and productive +2
+- Taproot impact +2
+- Modularization +1
+- P2P enhancements +1
+- What do we want Bitcoin Core to look like in 10 years? +1
+- Align on long-term plans, areas of focus, direction +1
+- Wallet (Coin selection, wallet exports, improved wallettool) +1
+- Scaling up new contributors
+- Maintainer best practices
+- GitHub complaining / other code hosting solutions
+- Fun new consensus features
+- L2 support
+- High-quality documentation of critical code paths
+- Consensus engine isolation
+- GUIX
+- Link-Time Optimization
+- Multiprocess
+- License/legal guide
+- Build stuff
+- Normalizing NACKs
+- The future of light clients
+- Ways to incentivize review and testing
+- Incentivizing people to work on the wallet and the GUI
+- Coin selection
+- Miniscript
+- Supporting smart contract wallets in Bitcoin Core generically
+- Improve the security-critical issue process
+
+## Review
+
+Review ([again](/bitcoin/coredev/retro/coredev-2019-retro/#review)) was the most common theme found in the answers. The word 'review' was mentioned 62 times across the 27 responses. Below are some bucketed themes.
+
+Lacking deep review, not having a deep bench of reviewers:
+
+- "I wish we had a couple more people dedicated to in-depth review of complicated p2p code."
+- "We could have used more reviewing and testing across the board."
+- "Bitcoin Core primarily lacks three resources the most: reviewers, reviewers and reviewers ;-)"
+- "Generally I'd hope to see more contributors, especially w.r.t. to code reviewers."
+
+Review prioritization:
+
+- "Review still seems to be quite sporadic/unconcentrated."
+- "As always, the very slow development process (which again comes to the topic of missing review power) and the fact that PRs that are not on the front-page anymore get neglected quickly can sometimes be frustrating."
+- "Sometimes it's hard to understand whether my PR is even on someone's stack (let alone being reviewed)."
+- "PRs could sit for a long time without attention and it's not clear what to do about it."
+
+Communicating individual priorities:
+
+- "I thought High priority for-review seemed like it _could be_ a project board where each person got a card to describe what they're doing, but it doesn't seem to really be used that way? I suppose my proposed change would be to do this, but I imagine something like this has already been tried, and it would be the burden of a maintainer."
+- "I think it would help to know what PR authors' own roadmaps are. But the bigger picture / long-term stuff kind of just pops up when someone's going off on a tangent like "by the way, this would lead to xyz, oh and also ties into this" without roadmaps. It's very helpful when someone has a big draft PR or issue, but otherwise I don't have a good idea of who's working on what, what the roadmap is, and how to help without asking them."
+- "There are also implicit/overarching goals like removing RecursiveMutexes, style/syntax guidelines, removing boost dependencies, using Pimpl, etc. that I only know about from seeing people comment on a bunch of PRs."
+- "I think that having a well defined goal for some projects would be very helpful. Sometimes changes are made without clear motivation of the end goal so creating roadmaps for various components and having well defined goals would make it easier to work."
+
+PR Status:
+
+- "...One thing would be great is more transparency from maintainers about PR status. Would be great if when you open the PR first thing you see is "Status: Needs Concept ACK". or "Status: Concept ACKed. Needs code review" or "Status: Concept ACKed. Needs author update" or "Status: Reviewed but needs more reviewers" or "Status: Reviewed but needs rereview after new changes". It is discouraging and disempowering to open a PR that seems promising but have to read through pages of comments to see what state it's in and try to guess what maintainers are thinking when they could just write what they are thinking."
+- "Maybe some more transparency about review / merge status"
+
+NACKing:
+
+- "Let's normalize NACKs related to saving reviewer's time. As a contributor, I feel the responsibility for the entire project (or at least for my area of expertise), and I don't think 'ignore instead of this kind of NACK' is productive."
+- "In the GUI repo introduce an 'Design (N)ACK' or 'UX (N)ACK' with corresponding design/UX pros and cons"
+
+Status influencing interactions on GitHub:
+
+- "...There are cultural cliques and there are favorites; some people are far more encouraged than others."
+- "It's a bit frustrating when certain maintainers merge their own PRs after only a few hours and a single or two ACKs, and simultaneously close other people's PRs or issues ..."
+
+### Contributor Isolation
+
+A thread of contributor isolation ran through many of the responses. Missing the Core Dev meetups appeared in multiple answers, and it is clear that the weekly IRC meetings are not a suitable substitute for meeting face-to-face.
+
+- "I think regular core dev meetups were a great way to sync up with people, but corona."
+- "Text (IRC) is pretty low bandwidth and slow, other communication channels (audio, face-to-face) might be a big improvement, but I see the challenges associated with them as well."
+- "It might be worth thinking if there should be an online replacement for coredev.tech in case international travel does not come back soon"
+- "I think async is the way to go because it always feels like bigger meetings at a certain time of day are excluding some people."
+
+## Looking forward
+
+Thank you to the contributors that took the time to offer their candid responses. Hopefully, this can be a useful artifact to refer to when prioritizing work suggesting process improvements. I look forward to reflecting on these answers throughout the year and reporting on a similar survey in early 2022.
