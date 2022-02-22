@@ -1,0 +1,171 @@
+---
+layout: post
+title:  "Bitcoin CoreDev reflections 2021-2022"
+date:   2022-02-22 09:57:39 -0500
+categories: bitcoin coredev retro
+image:
+  path: /images/wordcloud_2022.jpg
+---
+For a third year running, regular Bitcoin Core contributors received a survey to surface priorities and ensure that people feel that they can contribute effectively. Below is a summary of the results in a format similar to [last year's survey](/bitcoin/coredev/retro/coredev-2020-retro/).
+
+## 2021 Activity
+
+- 1785 PRs were opened against the master branch (compared to 1928 PRs in 2020, 1789 in 2019, 1910 in 2018, 1716 in 2017)
+- ...1261 PRs were merged against master (1257 PRs in 2020, 1167 2019, 1244 in 2018, 1152 in 2017)
+- ...from 144 unique PR authors (151 in 2020, 149 in 2019, 179 in 2018, 143 in 2017)
+- ...including 68 first-time authors (76 in 2020, 71 in 2019, 115 in 2018, 92 in 2017)
+- ...there were 35157 review comments (41352 in 2020, 32868 in 2019, 31989 in 2018, 27598 in 2017)
+- ...from 332 regular reviewers* (346 in 2020, 311 in 2019, 347 in 2018, 321 in 2017)
+- ...and 471 first-time reviewers (408 in 2020, 443 in 2019, 667 in 2018, 556 in 2017)
+
+\*A regular reviewer must have left >= 5 comments
+
+## The Questions
+
+The questionnaire consisted of 13 questions, which included:
+
+- How happy were you with progress in Bitcoin Core in 2021? (score 1-5 with comment. 1 = unhappy, 5 = happy). Try to think about what your hopes for this year were at the start of the year and whether that happened.
+- How happy were you with your own contributions? (score 1-5 with comment. 1 = unhappy, 5 = happy). Again, try to think about what you were hoping to achieve at the beginning of the year and whether that happened.
+- What went well in 2021? This can be about the project or process or your individual achievements.
+- Is there anything that frustrated or disappointed you about the Bitcoin Core project or your own contributions in 2021?
+- What do you hope will happen in Bitcoin Core in 2022? Try to rank your priorities.
+- What do you personally hope to achieve with Bitcoin Core in 2022? Try to rank your priorities.
+- Is there anything you’d change about the process/project that would help those things happen?
+- What is one thing would make you happier or more productive?
+- How connected do you feel to the other contributors of the project? Do you have any ideas on how to better sync with them?
+- Would you be willing to mentor another contributor? (Mentoring can mean a lot of different things, this is a rough way to gauge interest)
+- What aspect of Bitcoin or Bitcoin Core would you like to learn more about?
+- What topics would you like to discuss at the next CoreDev event?
+- Anything else?
+  
+## The responses
+
+24 contributors completed the survey. A word cloud from their comments is posted as a banner at the top.
+
+When asked to rate how happy they were with the project in 2021 (on a scale of 1-5), the mean declined slightly to 3.71 (3.77 in 2020, 4 in 2019), and the median remained at 4 (4 in 2020, 4 in 2019).
+
+#### Highlights from 2021 included
+
+- Taproot merged and activated +8
+- Spent more time reviewing work compared to last year +3
+- CoreDev in Zurich +2
+- Personal funding +1
+- GUIX +1
+- Progress on libbitcoinkernel +1
+- CJDNS +1
+- No major bugs found in releases +1
+- Mentorship +1
+- Fanquake doing point releases
+- Hardware wallet progress
+- QML repo
+- OSS-Fuzz
+- I2P, Tor v2/v3
+
+When asked to rate how happy the respondents' were with their personal 2020 contribution (on a scale of 1-5), the mean rose slightly to 3.54 (3.41 in 2020, 3.55 in 2019), and the median remained at 4 (4 in 2020, 4 in 2019).
+
+#### Areas of frustration/disappointment in 2021 included
+
+- Taproot activation +3
+- Review process +3
+- Politics and favoritism seeping into review +3
+- Slow pace +2
+- Decline of regular contributors/ maintainers stepping down +2
+- Lack of progress on meaningful projects
+- More visibility into what others are working on
+- PR review/IRC noisy at times
+
+#### Regarding Goals/Priorities for 2022
+
+- Covenants +4
+- Miniscript +3
+- Assumeuxto +3
+- Erlay +2
+- QML-based GUI +2
+- BIP324 +2
+- Another year of no major breakage +1
+- BIP 322 +1
+- libbitcoinkernel +2
+- Apple M1 release binaries
+- Linux release binaries with Wayland support
+- Differential fuzzing
+- Progress with process separation / code organization
+- Introduce Rust in the codebase
+- Multiprocess indexing
+
+
+#### Changes to improve the process/project
+
+- Organizing on-boarding resources and continued investment in educational and on-boarding resources
+- Contributors should be evaluated based on the quality of their contributions
+- Maintainers are per-codebase-area (e.g., build, GUI, mempool, p2p, wallet, fuzzer, RPC) and not "general" maintainers
+- More developers
+- More meetings. Video meetings might be fun
+- A clear set of priorities that would unify contributors
+
+#### Mentorship
+
+When asked whether they would be willing to mentor:
+
+- 67% responded, "yes, that is of interest"
+- 33% answered, "no, it wasn't for them"
+
+
+#### Interested in Learning More About
+
+There were a number of topics that contributors would like to learn more about, including:
+
+- P2P +3
+- Mempool +2
+- Wallet +2
+- Consensus +2
+- Covenants +1
+- Cryptography
+- Process separation
+- Script
+- Validation
+- Taproot
+
+#### At the next Coredev.tech
+
+- Multiprocess/process separation +1
+- Covenants +1
+- libbitcoinkernel
+- Deprecating the legacy wallet
+- Miniscript
+- Musig2
+- Hardware wallets
+- P2P
+- Script design
+- Fuzz testing
+- Spacechains
+- CPFP / RBF work
+- Policy documentation
+
+## Review
+
+Review ([again](/bitcoin/coredev/retro/coredev-2020-retro/#review)) was a common theme found in the answers. The word 'review' was the most popular topic appearing even more times than the word 'bitcoin.'
+
+There were a few different flavors of problems, starting with a general dissatisfaction with the management of review:
+- "The review process needs to be more streamlined and explicit. There is a tendency for PRs to drag on for much longer than needed because of style changes."
+- "So I would be happier if the review process of PRs were more predictable or faster. I know there are many good reasons for that. Still it makes me contribute less than I would normally do."
+- "It's totally unknown whether anybody will actually review your PR or not. One may get a burst of review comments and then nothing really can happen for weeks or months."
+- "If a PR gets several ACKs, it can take weeks for the PR to be merged... To me the process is very unpredictable."
+
+There was also an acknowledgment of the impact of not getting review:
+- "A few people seem to have a sense of entitlement about review of their work"
+- "People also make comments about others' PRs being merged 'suspiciously fast,' interpreting this as favoritism or dishonesty by the authors, without having any substantial criticism of the PR itself."
+- This was perhaps best summarized by the comment, "In general, I think we all experience a lack of review attention within our group of developers, and perhaps this creates tension. But collaboration, not competition, is what helps make us more productive."
+
+Others noted they wished that they had done more review:
+- "I wish I had done more reviews more promptly."
+- "I've been getting sucked into projects and not reviewing enough. Or sometimes I get hung up on reviewing a big PR, and neglect other smaller PRs that could be making progress. I need to get better at task switching"
+- "I also thought [important projects] would have moved forward more in 2021, but I was remiss in not reviewing them enough myself."
+
+## Taproot
+
+While there was frequent mention of celebrating the activation of taproot, frustration around the taproot activation process was also apparent.
+
+
+## Till next year...
+
+Thank you to the contributors that took the time to write up their responses. My hope is that this can be a useful reference for prioritization and process improvements, and I look forward to reporting on a similar survey in early 2023.
