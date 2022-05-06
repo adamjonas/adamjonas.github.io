@@ -4,7 +4,6 @@ title:  "Funding Bitcoin Development"
 date:   2020-10-16 12:57:39 -0500
 categories: bitcoin funding
 ---
-(Edited and updated December 2021)
 
 I'm grateful that Chaincode doesn't have an open grant process. It's an enormous time investment to do well. [Square Crypto](https://squarecrypto.org/#grants), [BitMEX](https://blog.bitmex.com/grants/), [OKCoin](https://developergrant.okcoin.com/), [Gemini](https://www.gemini.com/opportunity-fund) and others should be lauded for their financial contributions back to the ecosystem. But after convincing the higher-ups that grants are a good idea, the real heroes dig in to read all those applications and talk with dozens of candidates. Over this couple of years, it's been a thrill to see an uptick in dev funding. I've witnessed life-changing grants that allow developers and researchers to turn 100% of their attention to Bitcoin development. That trend seems to be accelerating with more individuals and bitcoin businesses recognizing the importance of supporting the devs that secure our Bitcoin future. In fact, when I first wrote this in the fall of 2020, finding funding for all the qualified devs was an issue. Now (December 2021), there is an excess of money without enough quality devs.
 
@@ -33,3 +32,5 @@ Another option is sprinkling money around through crowdfunding like [bitcoindevl
 ## Thank you
 
 Funding matters and the fact that you are interested enough to get to this point in the post reflects who you are and your investment in helping Bitcoin. Thank you for caring so deeply. Let me know if I can be helpful.
+
+(Edited and updated December 2021)
