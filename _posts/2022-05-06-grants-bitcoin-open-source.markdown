@@ -5,9 +5,9 @@ date:   2022-05-06 09:57:39 -0500
 categories: bitcoin funding grants
 ---
 
-Over the past few years, the bar for funding has been a moving target. Prior to 2019, finding full-time funding for open-source bitcoin development was quite hard. That summer, we gathered [a few brave souls](https://residency.chaincode.com/) in New York and went as far as hosting a demo day in the hopes of finding them finding them financial support for their open-source work. It took months for many of them to find support. That was three short years ago and it was a totally different funding climate back then. Blockstream, MIT DCI and Chaincode were the only games in town. Xapo had one and Coinbase had one. That was about it.
+Over the past few years, the bar for funding has been a moving target. Prior to 2019, finding full-time funding for open-source bitcoin development was quite hard. That summer, we gathered [a few brave souls](https://residency.chaincode.com/) in New York and went as far as hosting a demo day in the hopes of finding them financial support for their open-source work. It took months for many of them to find support. That was three short years ago and it was a totally different funding climate back then. Blockstream, MIT DCI and Chaincode were the only games in town. Xapo had one and Coinbase had one employee that worked on open-source. That was about it.
 
-Then Square Crypto showed up. Not only did they poach BlueMatt from us to lead an internal team, but they also launched a massive grant program. OKCoin and BitMEX spun up their programs soon after. Peter McCormack pressured Coinbase and Gemini) into the mix. Brink started their grant program. By 2022, giving was normalized and now we find ourselves in the position where there is too much money for not enough talent. (see [Summer of Bitcoin](http://summerofbitcoin.org/) and [Qala](https://qala.dev/))
+Then Square Crypto showed up. Not only did they poach BlueMatt from us to lead an internal team, but they also launched a massive grant program. OKCoin and BitMEX spun up their programs soon after. Peter McCormack pressured Coinbase and Gemini into the mix. Brink started their grant program. By 2022, giving was normalized and now we find ourselves in the position where there is too much money for not enough talent. (see [Summer of Bitcoin](http://summerofbitcoin.org/) and [Qala](https://qala.dev/))
 
 _Disclaimer: Chaincode doesn't give grants. It's a challenging process and my gratitude goes out to all the grant programs that are doing their best to get this right. I wrote more about the giving side of things [here](/bitcoin/funding/funding-bitcoin-development/)._
 
@@ -25,17 +25,17 @@ The goal of these grant programs is not to make you rich. If you are looking for
 
 ## Association with Grantors
 
-There is some level of prestige among the different programs. Most of this is based on the sponsor's standing in the community. Jonas Schnelli got [some flak](https://twitter.com/_jonasschnelli_/status/1360259171036332036) for taking money from Marathon Mining when their company policy was to [censor transactions](https://www.coindesk.com/tech/2021/05/07/marathon-miners-have-started-censoring-bitcoin-transactions-heres-what-that-means/). For me, there are two ways to look at this: 1) By taking money from a source, it could be interpreted as an implicit endorsment of their business and role in the community or 2) taking money from a less-than-ideal source could be seen as reparations or their attempt at gaining goodwill with the community with money. In other words, taking tainted money and turning it into good.
+There is some level of prestige among the different programs. Most of this is based on the sponsor's standing in the community. Jonas Schnelli got [some flak](https://twitter.com/_jonasschnelli_/status/1360259171036332036) for taking money from Marathon Mining when their company policy was to [censor transactions](https://www.coindesk.com/tech/2021/05/07/marathon-miners-have-started-censoring-bitcoin-transactions-heres-what-that-means/). For me, there are two ways to look at this: 1) By taking money from a source, it could be interpreted as an implicit endorsement of their business and role in the community or 2) taking money from a less-than-ideal source could be seen as reparations or their attempt at gaining goodwill with the community with money. In other words, taking tainted money and turning it into good.
 
 Obviously, it's not so black and white, but if you are foregoing financial upside to work on open-source, you probably want to think about where you fall here.
 
 ## BTC or USD
 
-Some programs offer grants either dominated in fiat or bitcoin. This can go very wrong. We are all here because we believe in bitcoin and have high hopes for its future, but bitcoin hasn't yet arrived. If you can't cover your bills because of a price crash, now you are back to worrying about funding. Please don't be irresponsible with philanthropic money given to you to create public good.
+Some programs offer grants either dominated in fiat, bitcoin, or both. This can go very wrong. We are all here because we believe in bitcoin and have high hopes for its future, but bitcoin hasn't yet arrived. If you can't cover your bills because of a market price crash, now you are back to worrying about funding. Please don't be irresponsible with philanthropic money given to you to create public good.
 
 ## Where the gaps remain
 
-If you have a family, doing work for free is difficult. If you are from a culture where open-source devs aren't celebrated, this is a hard road to justify to friends and family. Part-time contribution takes a long time. But all of these are possible. I've seen them done.
+If you have a family, doing work for free is difficult. If you are from a culture where open-source devs aren't celebrated, this is a hard road to justify to friends and family. Part-time contribution takes a long time. But all of these paths are possible. I've seen them done.
 
 
 If you want to work on open-source bitcoin, I'm happy to talk.
