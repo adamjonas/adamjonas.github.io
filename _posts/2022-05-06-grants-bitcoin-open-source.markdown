@@ -33,6 +33,10 @@ Grantors usually will want credit for their gifts. Some grant programs are actua
 
 There is some level of prestige among the different programs. Most of this is based on the sponsor's standing in the community. Jonas Schnelli got [some flak](https://twitter.com/_jonasschnelli_/status/1360259171036332036) for taking money from Marathon Mining when their company policy was to [censor transactions](https://www.coindesk.com/tech/2021/05/07/marathon-miners-have-started-censoring-bitcoin-transactions-heres-what-that-means/). For me, there are two ways to look at this: 1) By taking money from a source, it could be interpreted as an implicit endorsement of their business and role in the community or 2) taking money from a less-than-ideal source could be seen as reparations or their attempt at gaining goodwill with the community with money. In other words, taking tainted money and turning it into good. Obviously, it's not so black and white, but if you are foregoing financial upside to work on open-source, you probably want to think about where you fall here.
 
+## Pseudonymity
+
+Grantors need to ensure their money isn't going to a supervillain to protect themselves from legal and reputation risks. As of writing, Spiral leads the way regarding policies surrounding open-source grants for pseudonymous contributors. Other sponsors also offer support for pseudonyms, but I don't know the details of what level of personal identifying info they may require.
+
 ## BTC or USD
 
 Some programs offer grants either dominated in fiat, bitcoin, or both. This can go very wrong. We are all here because we believe in bitcoin and have high hopes for its future, but bitcoin hasn't yet arrived. If you can't cover your bills because of a market price crash, now you are back to worrying about funding. Please don't be irresponsible with philanthropic money given to you to create public good.
