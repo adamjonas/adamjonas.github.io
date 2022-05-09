@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to get a grant to work on bitcoin open-source"
+title:  "A guide for bitcoin open-source grant seekers"
 date:   2022-05-06 09:57:39 -0500
 categories: bitcoin funding grants
 ---
@@ -25,7 +25,11 @@ The round number people tend to use is $100,000. This simplifies the process for
 
 The goal of these grant programs is not to make you rich. If you are looking for financial upside, going the grant program route isn't for you. The list remains short of full-time roles for bitcoin open-source work, but they do exist. Grants are typically 12-month terms, but it is fair to ask about grant length and the renewal process. The majority of the grant turnover I see is not driven from the grantor side -- usually, either the grantee quits to do something else, or they move to another sponsor because of better terms or to associate with a grant program with a better reputation.
 
-Grants are not employment. If you live in a part of the world like the US, where health care or other benefits are tied to full-time employment, you need to take that into account. Many of these benefits can be purchased, just like any self-employed freelancer might do, but they can be a significant expense.
+## Grants are not employment
+
+If you live in a part of the world like the US, where health care or other benefits are tied to full-time employment, you need to take that into account. Many of these benefits can be purchased, just like any self-employed freelancer might do, but they can be a significant expense.
+
+Depending on your jurisdiction, it might be advantageous to receive the grant through an entity like an LLC or corporation rather than as an individual. This approach may increase your privacy and reduce your tax burden, but it is very much based on your country. If you have questions, you should talk to an accountant.
 
 ## Association with Grantors
 
