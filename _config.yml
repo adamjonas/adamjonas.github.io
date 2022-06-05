@@ -136,7 +136,6 @@ defaults:
     values:
       layout: post
       share: false
-      image: /images/fiat-globe.jpg
 
 # Site Author
 author:
