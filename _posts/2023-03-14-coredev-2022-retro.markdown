@@ -1,0 +1,223 @@
+---
+layout: post
+title:  "Bitcoin CoreDev reflections 2022-2023"
+date:   2023-03-10 13:57:39 -0500
+categories: bitcoin coredev retro
+image:
+  path: /images/wordcloud_2023.jpg
+---
+For a fourth year running, regular Bitcoin Core contributors received a survey to surface priorities and ensure that people feel that they can contribute effectively. Below is a summary of the results in a format similar to [last year's survey](/bitcoin/coredev/retro/coredev-2021-retro/).
+
+## 2022 Activity
+
+- 1712 PRs were opened against the master branch (compared to 1785 PRs in 2021, 1928 PRs in 2020, 1789 in 2019, 1910 in 2018, 1716 in 2017)
+- ... 1091 PRs were merged against master (1261 PRs in 2021, 1257 PRs in 2020, 1167 2019, 1244 in 2018, 1152 in 2017)
+- ... from 119 unique PR authors (144 in 2021, 151 in 2020, 149 in 2019, 179 in 2018, 143 in 2017)
+- ... including 48 first-time authors (68 in 2021, 76 in 2020, 71 in 2019, 115 in 2018, 92 in 2017)
+- ... there were 31923 review comments (35157 in 2021, 41352 in 2020, 32868 in 2019, 31989 in 2018, 27598 in 2017)
+- ... from 307 regular reviewers* (332 in 2021, 346 in 2020, 311 in 2019, 347 in 2018, 321 in 2017)
+- ... and 392 first-time reviewers (471 in 2021, 408 in 2020, 443 in 2019, 667 in 2018, 556 in 2017)
+
+\*A regular reviewer must have left >= 5 comments
+
+## The Questions
+
+The questionnaire consisted of 13 questions, which included:
+
+- How happy were you with progress in Bitcoin Core in 2022? (score 1-5 with comment. 1 = unhappy, 5 = happy). Try to think about what your hopes for this year were at the start of the year and whether that happened.
+- How happy were you with your own contributions? (score 1-5 with comment. 1 = unhappy, 5 = happy). Again, try to think about what you were hoping to achieve at the beginning of the year and whether that happened.
+- What went well in 2022? This can be about the project or process or your individual achievements.
+- Is there anything that frustrated or disappointed you about the Bitcoin Core project or your own contributions in 2022?
+- What do you hope will happen in Bitcoin Core in 2023? Try to rank your priorities.
+- What do you personally hope to achieve with Bitcoin Core in 2023? Try to rank your priorities.
+- Is there anything you’d change about the process/project that would help those things happen?
+- What is one thing would make you happier or more productive?
+- How connected do you feel to the other contributors of the project? Do you have any ideas on how to better sync with them?
+- Would you be willing to mentor another contributor? (Mentoring can mean a lot of different things, this is a rough way to gauge interest)
+- What aspect of Bitcoin or Bitcoin Core would you like to learn more about?
+- What topics would you like to discuss at the next CoreDev event?
+- Anything else?
+  
+## The responses
+
+28 contributors completed the survey. A word cloud from their comments is posted as a banner at the top.
+
+When asked to rate how happy they were with the project in 2022 (on a scale of 1-5), the mean remained the roughly same 3.70 (3.71 in 2021, 3.77 in 2020, 4 in 2019), and the median remained at 4 (4 in 2021, 4 in 2020, 4 in 2019).
+
+#### Highlights from 2022 included
+
+- New contributors to the project +2
+- Miniscript support +2
+- Build system changes +1
+- Quality of codebase improvements +1
+- P2P reviewers available +1
+- Delegation of lower priority tasks to new contributors
+- Feedback and review on PRs
+- Descriptor wallet migration
+- Deprecating the legacy wallet
+- Improvements to coin selection
+- Progress on libbitcoinkernel
+- CJDNS full support
+- PR review club
+- Code ready BIP 324
+- Blockfilters for wallet rescans
+- Meeting most of the other contributors in real-life
+- scanblocks RPC
+- Progress in packagerelay
+- OP_VAULT
+- Full RBF option
+- Silent payments have been proposed
+- Clang-tidy
+- New tracing interface
+- Incremental improvements
+- Good features merged or proposed
+- Writing documentation
+- Velocity at which PRs got merged
+- Fuzz coverage increased
+- No major bugs exploited in production
+- Net: open p2p connections to nodes that listen on non-default ports
+- I2P: add support for transient addresses for outbound connections
+- Make all networking code mockable
+
+When asked to rate how happy the respondents' were with their personal 2020 contribution (on a scale of 1-5), the mean rose slightly to 3.59 (3.54 in 2021, 3.41 in 2020, 3.55 in 2019), and the median remained at 4 (4 in 2021, 4 in 2020, 4 in 2019).
+
+#### Areas of frustration/disappointment in 2022 included
+
+
+- Burnout among senior contributors/maintainers and talent leaving the project faster than new talent joining +4
+- Contributors causing disruptions and Dominance of non-contributors in meta discussions, leading to regular contributors avoiding them +4
+- Mempoolfullrbf discussion causing delays and frustration +2
+- Increasing volume of low-value refactoring PRs and scarce review of complex projects/PRs +2
+- Long wait times for reviews +1
+- Unclear information on what changes might be accepted into Bitcoin Core +1
+- Lack of focus on important projects/PRs +1
+- Need for a more liberal approach to banning spammy and rude users +1
+- Disappointed with handling of vasild maintainership +1
+- Public perception of the project and high variance in attention PRs can get from wider community +1
+- Unclear which projects need what kind of help +1
+- Occasional bikeshedding on PR reviews +1
+
+#### Regarding Goals/Priorities for 2023
+
+- Erlay +4
+- BIP 324 +3
+- Package relay +2
+- Assumeutxo +2
+- CMake-based build system +1
+- GUI improvements / QML GUI +1
+- Make ASMap default in Core +1
+- Privacy in the wallet +1
+- vaults +1
+- More fuzzing coverage (p2p in particular) +1
+
+
+#### Changes to improve the process/project
+
+- More communication and contact among developers and from maintainers +2
+- More frequent reminders of reviewing +1
+- Higher level roadmaps and goals for the project as a whole
+- Coordinating reviews better among multiple contributors
+- Providing technical content about improvement proposals
+- Decentralizing the project to avoid maintainer/contributor burnout and increase bus factor
+- Working in smaller groups, in public, without trolls
+- Longer funding runway for bigger, more ambitious projects
+- More leaders in the project rallying review effort
+
+#### Mentorship
+
+When asked whether they would be willing to mentor:
+
+- 56% responded, "yes, that is of interest"
+- 44% answered, "no, it wasn't for them"
+
+
+#### Interested in Learning More About
+
+There were a number of topics that contributors would like to learn more about, including:
+
+- Mempool +2
+- Cryptography +2
+- P2P/networking +1
+- Fee estimation +1
+- Cross Input Signature Aggregation +1
+- Testing, both functional/fuzzing +1
+- Wallet code
+- Licensing
+- Build process
+- BIP324
+- Script and mini script
+- Mining/Stratum V2
+- HTTP server/RPC stuff
+- OP_VAULT
+- Covenants
+
+#### At the next Coredev.tech
+
+- Project management +6
+- Kill-shill-merge +3
+- Erlay +3
+- OP_VAULT +2
+- ASMap +2
+- Migration from Autotools to CMake +1
+- Silent payments +1
+- Fuzzing +1
+- UTXO tracking
+- Improving the wallet tool
+- Code of conduct
+- Code hosting alternatives/fallbacks
+- Governance process for new maintainers
+- BIP 324
+- Deprecating the legacy wallet
+- Packagerelay
+- Transactions v3
+- SIGHASH_ANYPREVOUT
+- P2P attacks
+- Tracing framework
+- AssumeUTXO
+- Simplifying maintenance of Bitcoin Core
+- Kernel
+- Publishing CVEs
+- Privacy improvements for the Bitcoin Core wallet
+- Shifting feature freeze after CoreDev for Kill-Shill-Merge
+- Silent Payments BIP feedback
+- Funding
+- Soft forks
+
+## Checking in on Review
+
+Review ([again](/bitcoin/coredev/retro/coredev-2021-retro/#review)) was the most repeated word in the survey closely followed by project and core repspectively.
+
+Many respondants acknowledged they should be doing more review (+4).
+
+Besides just wanting more review, there was some specific themes this year when it came to comments about review headlined with the volume of PRs that address superficial issues and refactors:
+
+- "The volume of low-value refactoring PRs is on the rising while the review of complex projects/PRs is very scarce"
+- "Remind people more frequently that reviewing and building a deep understanding of problems is more important than small refactoring PRs"
+
+There were also calls for more coordination and prioritization of review:
+
+- "...learn to better coordinate efforts (i repeat this every year, and there seem to be - improvements)."
+- "Better ways to coordinate efforts (e.g., i'm open to commit to doing something and weekly calls for specific prs, but noone asks)"
+- "Erlay and BIP324 have huge potential, and I hope they get more review"
+- "... don't be bashful about committing to some priorities, 'rallying the troops.'"
+- "... leaders in the project rallying review effort, setting goals or priorities."
+
+The pace of merging large projects was a recurring theme.
+
+- "Better communication, faster development cycle - I think this can be done without sacrificing rigor."
+- "long wait times for some things to get review is disappointing"
+- "would also have liked to have gotten more review and progress on some of my older PRs"
+- "It's hard to say what is the ideal pace to have PRs closed/merged/reviewed but I feel we could have advanced more on this."
+
+## The maintainers
+
+This year's survey also had some specific requests for the maintainers:
+
+1. A prioritization of big things over incremental improvements
+2. Be more aggressive in banning non-contributors who drain time and focus
+3. More clarity on how new maintainers are selected
+
+
+## Till next year...
+
+Thank you to the contributors that took the time to respond to this survey. I look forward to reporting on a similar survey in early 2024.
