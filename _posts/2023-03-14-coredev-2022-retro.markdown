@@ -31,7 +31,7 @@ The questionnaire consisted of 13 questions, which included:
 - What do you hope will happen in Bitcoin Core in 2023? Try to rank your priorities.
 - What do you personally hope to achieve with Bitcoin Core in 2023? Try to rank your priorities.
 - Is there anything you’d change about the process/project that would help those things happen?
-- What is one thing would make you happier or more productive?
+- What is one thing that would make you happier or more productive?
 - How connected do you feel to the other contributors of the project? Do you have any ideas on how to better sync with them?
 - Would you be willing to mentor another contributor? (Mentoring can mean a lot of different things, this is a rough way to gauge interest)
 - What aspect of Bitcoin or Bitcoin Core would you like to learn more about?
@@ -185,9 +185,9 @@ There were a number of topics that contributors would like to learn more about, 
 
 ## Checking in on Review
 
-Review ([again](/bitcoin/coredev/retro/coredev-2021-retro/#review)) was the most repeated word in the survey closely followed by project and core repspectively.
+Review ([again](/bitcoin/coredev/retro/coredev-2021-retro/#review)) was the most repeated word in the survey closely followed by project and core respectively.
 
-Many respondants acknowledged they should be doing more review (+4).
+Many respondents acknowledged they should be doing more review (+4).
 
 Besides just wanting more review, there was some specific themes this year when it came to comments about review headlined with the volume of PRs that address superficial issues and refactors:
 
