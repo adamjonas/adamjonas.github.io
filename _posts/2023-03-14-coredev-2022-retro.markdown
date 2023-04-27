@@ -12,11 +12,15 @@ For a fourth year running, regular Bitcoin Core contributors received a survey t
 
 - 1712 PRs were opened against the master branch (compared to 1785 PRs in 2021, 1928 PRs in 2020, 1789 in 2019, 1910 in 2018, 1716 in 2017)
 - ... 1091 PRs were merged against master (1261 PRs in 2021, 1257 PRs in 2020, 1167 2019, 1244 in 2018, 1152 in 2017)
+![Graph of the number of PRs opened and merged against master](/images/2023_coredev_retro/2023_graph_prs_opened_merged.png)
 - ... from 119 unique PR authors (144 in 2021, 151 in 2020, 149 in 2019, 179 in 2018, 143 in 2017)
 - ... including 48 first-time authors (68 in 2021, 76 in 2020, 71 in 2019, 115 in 2018, 92 in 2017)
+![Graph of the number of unique and first-time PR authors](/images/2023_coredev_retro/2023_graph_authors.png)
 - ... there were 31923 review comments (35157 in 2021, 41352 in 2020, 32868 in 2019, 31989 in 2018, 27598 in 2017)
+![Graph of the number of review comments](/images/2023_coredev_retro/2023_graph_review_comments.png)
 - ... from 307 regular reviewers* (332 in 2021, 346 in 2020, 311 in 2019, 347 in 2018, 321 in 2017)
 - ... and 392 first-time reviewers (471 in 2021, 408 in 2020, 443 in 2019, 667 in 2018, 556 in 2017)
+![Graph of the number of regular and first-time reviewers](/images/2023_coredev_retro/2023_graph_reviewers.png)
 
 \*A regular reviewer must have left >= 5 comments
 
