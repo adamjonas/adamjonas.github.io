@@ -1,0 +1,180 @@
+---
+layout: post
+title: "Bitcoin CoreDev reflections 2023-2024"
+date: 2024-02-20 13:57:39 -0500
+categories: bitcoin coredev retro
+image:
+  path: /images/wordcloud_2024.png
+---
+For a fifth year running, regular Bitcoin Core contributors received a survey to surface priorities and ensure that people feel that they can contribute effectively. Below is a summary of the results in a format similar to [last year's survey](/bitcoin/coredev/retro/coredev-2022-retro/).
+
+## 2023 Activity
+
+- 1323 PRs were opened against the master branch (compared to 1712 PRs in 2022, 1785 PRs in 2021, 1928 PRs in 2020, 1789 in 2019, 1910 in 2018, 1716 in 2017)
+- ... 843 PRs were merged against master (1091 PRs in 2022, 1261 PRs in 2021, 1257 PRs in 2020, 1167 2019, 1244 in 2018, 1152 in 2017)
+
+![Graph of the number of PRs opened and merged against master](/images/2024_coredev_retro/2024_graph_prs_opened_merged.png)
+- ... from 93 unique PR authors (119 in 2022, 144 in 2021, 151 in 2020, 149 in 2019, 179 in 2018, 143 in 2017)
+- ... including 24 first-time authors (48 in 2022, 68 in 2021, 76 in 2020, 71 in 2019, 115 in 2018, 92 in 2017)
+
+![Graph of the number of unique and first-time PR authors](/images/2024_coredev_retro/2024_graph_authors.png)
+- ... there were 29014 review comments (31923 in 2022, 35157 in 2021, 41352 in 2020, 32868 in 2019, 31989 in 2018, 27598 in 2017)
+
+![Graph of the number of review comments](/images/2024_coredev_retro/2024_graph_review_comments.png)
+- ... from 285 regular reviewers* (307 in 2022, 332 in 2021, 346 in 2020, 311 in 2019, 347 in 2018, 321 in 2017)
+- ... and 355 first-time reviewers (392 in 2022, 471 in 2021, 408 in 2020, 443 in 2019, 667 in 2018, 556 in 2017)
+
+![Graph of the number of regular and first-time reviewers](/images/2024_coredev_retro/2024_graph_reviewers.png)
+
+\*A regular reviewer must have left >= 5 comments
+
+## The Questions
+
+The questionnaire consisted of 13 questions, which included:
+
+- How happy were you with progress in Bitcoin Core in 2023? (score 1-5 with comment. 1 = unhappy, 5 = happy). Try to think about what your hopes for this year were at the start of the year and whether that happened.
+- How happy were you with your own contributions? (score 1-5 with comment. 1 = unhappy, 5 = happy). Again, try to think about what you were hoping to achieve at the beginning of the year and whether that happened.
+- What went well in 2023? This can be about the project or process or your individual achievements.
+- Is there anything that frustrated or disappointed you about the Bitcoin Core project or your own contributions in 2023?
+- What do you hope will happen in Bitcoin Core in 2024? Try to rank your priorities.
+- What do you personally hope to achieve with Bitcoin Core in 2024? Try to rank your priorities.
+- Is there anything you’d change about the process/project that would help those things happen?
+- What is one thing that would make you happier or more productive?
+- How connected do you feel to the other contributors of the project? Do you have any ideas on how to better sync with them?
+- Would you be willing to mentor another contributor? (Mentoring can mean a lot of different things, this is a rough way to gauge interest)
+- What aspect of Bitcoin or Bitcoin Core would you like to learn more about?
+- What topics would you like to discuss at the next CoreDev event?
+- Anything else?
+  
+## The responses
+
+25 contributors completed the survey. A word cloud from their comments is posted as a banner at the top.
+
+When asked to rate how happy they were with the project in 2022 (on a scale of 1-5), the mean increased to 4.00 (3.70 in 2022, 3.71 in 2021, 3.77 in 2020, 4 in 2019), and the median remained at 4 (4 in 2022, 4 in 2021, 4 in 2020, 4 in 2019).
+
+#### Highlights from 2022 included
+
+- Priority projects +10
+- BIP324 +7
+- AssumeUTXO +3
+- Automatic connection handling
+- Release v26
+- Mempool +1
+- Fuzzing
+- Libbitcoinkernel project pace
+- C++20 support
+- Automatic CPFP
+- TXid type-safety
+- Miniscript support
+
+When asked to rate how happy the respondents were with their personal 2022 contribution (on a scale of 1-5), the mean rose slightly to 3.64 (3.59 in 2022, 3.54 in 2021, 3.41 in 2020, 3.55 in 2019), and the median remained at 4 (4 in 2022, 4 in 2021, 4 in 2020, 4 in 2019).
+
+#### Areas of frustration/disappointment in 2023 included
+
+- Campaigning from non-contributors on GitHub +7
+- The pace +5
+- Rebase hell +1
+- Need better coin selection
+- Lack of new talent
+- Proposing too many superficial changes
+
+#### Regarding Goals/Priorities for 2023
+
+- Silent payments +7
+- Package relay +7
+- Cluster mempool +5
+- CMake +5
+- Musig2 +3
+- BIP324 enabled by default +2
+- Fuzzing +2
+- RBF policies +1
+
+#### Changes to improve the process/project
+
+- Better moderation tools +2
+- New BIP maintainer
+- NACKs on PR that people don't agree with
+- More reliable CI
+- Creating virtual environments for stronger knowledge share
+
+#### Mentorship
+
+When asked whether they would be willing to mentor:
+
+- 80% responded, "yes, that is of interest"
+- 20% answered, "no, it wasn't for them"
+
+#### Interested in Learning More About
+
+There were a number of topics that contributors would like to learn more about, including:
+
+- Mempool/Cluster Mempool +6
+- Cryptography +2
+- Script +1
+- P2P +1
+- Builds system and releases +1
+- AssumeUTXO status +1
+- Musig2 support +1
+- Lightning
+- Stratum v2
+- Covenants/vaults
+- Fuzzing
+
+#### At the next Coredev.tech
+
+- Wallet +5
+- Cluster mempool +3
+- Silent payments +3
+- Fuzzing +2
+- Package relay +2
+- P2P +2
+- ASMap +1
+- Libbitcoinkernel +1
+- Soft forks
+- Cuckoo filters > bloom filters
+- Handling of CVE disclosures
+- Complicated scripts
+- Multiprocess
+- Delving Bitcoin
+- Inquisition
+- lisp-on-bitcoin
+- Has UTXO set growth reached concerning levels?
+- Amendments to BIP process
+- Private transactions broadcast
+
+## Priority Projects
+
+19 of the 25 respondents made specific references to priority projects:
+
+- "Introducing the concept of priority projects made the whole development process more organized and focussed and is helpful both for newcomers and long-term contributors to answer the question 'where is my time best spent for helping out in reviewing/testing etc.?'"
+- "The priority project initiative started out quite strong and I think it did fairly well."
+- "Priority projects are great!"
+- "I think the process of picking high priority projects... checking in with them every week was a great idea."
+- "[Liked the] idea of priority projects! really liked the direction, flexibility and pace priority projects brought to Bitcoin Core."
+- "One of last years points... was 'having a list of "what has to be done" sorted by priority would be nice', which was actually fulfilled with the priority projects. Nice!"
+
+There were some outstanding questions about priority projects as well:
+- "Clearer expectations about what priority project champions should be doing."
+- "First round of priority projects went well; not sure we were setup for success for the second round."
+- "Focus on high-priority projects worked well in some cases - but unclear if that was really due to the changed process and if it's a one-time-thing or if it would work sustainably."
+
+## By the numbers
+
+Project satisfaction numbers rose to their highest numbers since the survey. However, contribution numbers are down across the board.
+
+Priority projects were frequently mentioned as having helped improve the enjoyment of working on the project, however, Bitcoin Core is not attracting new members to replace long-time contributors who have stepped away.
+
+## Reviewing comments about review
+
+Consistent with past surveys, review was a central theme but there was less mention in this survey than in [past surveys](/bitcoin/coredev/retro/coredev-2022-retro/#review). Maybe this is because a lot of that discussion shifted to talking about the project priorities.
+
+## The maintainers
+
+This year's survey also had a couple of specific requests for the maintainers:
+
+1. I think it would be helpful to have some guidelines on when PRs should be closed and how aggressively the maintainers should moderate discussion on controversial PRs and issues.
+2. "I would appreciate clear feedback from maintainers and more experienced collaborators. Pull requests that are not likely going to be merged should be communicated to the contributor explicitly, along with the reasons, and they should be closed to avoid unnecessary rebases."
+
+## Till next year...
+
+Thank you to the contributors who took the time to respond to this survey. I look forward to reporting on a similar survey in early 2025.
