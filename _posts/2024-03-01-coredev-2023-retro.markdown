@@ -78,7 +78,7 @@ When asked to rate how happy the respondents were with their personal 2023 contr
 - Lack of new talent
 - Proposing too many superficial changes
 
-#### Regarding Goals/Priorities for 2023
+#### Regarding Goals/Priorities for 2024
 
 - Silent payments +7
 - Package relay +7
