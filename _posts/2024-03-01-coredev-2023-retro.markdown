@@ -50,9 +50,9 @@ The questionnaire consisted of 13 questions, which included:
 
 25 contributors completed the survey. A word cloud from their comments is posted as a banner at the top.
 
-When asked to rate how happy they were with the project in 2022 (on a scale of 1-5), the mean increased to 4.00 (3.70 in 2022, 3.71 in 2021, 3.77 in 2020, 4 in 2019), and the median remained at 4 (4 in 2022, 4 in 2021, 4 in 2020, 4 in 2019).
+When asked to rate how happy they were with the project in 2023 (on a scale of 1-5), the mean increased to 4.00 (3.70 in 2022, 3.71 in 2021, 3.77 in 2020, 4 in 2019), and the median remained at 4 (4 in 2022, 4 in 2021, 4 in 2020, 4 in 2019).
 
-#### Highlights from 2022 included
+#### Highlights from 2023 included
 
 - Priority projects +10
 - BIP324 +7
@@ -67,7 +67,7 @@ When asked to rate how happy they were with the project in 2022 (on a scale of 1
 - TXid type-safety
 - Miniscript support
 
-When asked to rate how happy the respondents were with their personal 2022 contribution (on a scale of 1-5), the mean rose slightly to 3.64 (3.59 in 2022, 3.54 in 2021, 3.41 in 2020, 3.55 in 2019), and the median remained at 4 (4 in 2022, 4 in 2021, 4 in 2020, 4 in 2019).
+When asked to rate how happy the respondents were with their personal 2023 contribution (on a scale of 1-5), the mean rose slightly to 3.64 (3.59 in 2022, 3.54 in 2021, 3.41 in 2020, 3.55 in 2019), and the median remained at 4 (4 in 2022, 4 in 2021, 4 in 2020, 4 in 2019).
 
 #### Areas of frustration/disappointment in 2023 included
 
