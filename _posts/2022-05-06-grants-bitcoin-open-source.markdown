@@ -19,7 +19,7 @@ Doing the work also means demonstrating your work. Not all work in open-source w
 
 ## How much to ask for
 
-The round number people tend to use is $100,000. This simplifies the process for grantors, so they don't have to make judgment calls on your standard of living or life circumstances. Some programs will adjust their grants based on need. $100,000 in San Francisco is very different than $100,000 in San Salvador. This requires more effort from both the grantor and the grantee to find the number that makes sense. It is also standard for most programs to allow you to take grants from other sources, but some require exclusivity. This is to prevent situations where people have stacked grants to the point they are making a higher than industry salary, which can appear greedy. I think you are usually fine if you are as transparent as possible with your needs and where you expect to source money.
+The round number people tend to use is $100,000. This simplifies the process for grantors, so they don't have to make judgment calls on your standard of living or life circumstances. Some programs will adjust their grants based on need. $100,000 in Miami is very different than $100,000 in Mumbai. This requires more effort from both the grantor and the grantee to find the number that makes sense. It is also standard for most programs to allow you to take grants from other sources, but some require exclusivity. This is to prevent situations where people have stacked grants to the point they are making a higher than industry salary, which can appear greedy. I think you are usually fine if you are as transparent as possible with your needs and where you expect to source money.
 
 ## Sustainability
 
