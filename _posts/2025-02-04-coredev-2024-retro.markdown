@@ -1,0 +1,149 @@
+---
+layout: post
+title: "Bitcoin CoreDev reflections 2024-2025"
+date: 2025-02-04 01:57:39 -0500
+categories: bitcoin coredev retro
+image:
+  path: /images/wordcloud_2025.jpg
+---
+
+For a sixth year running, regular Bitcoin Core contributors received a survey to surface priorities and ensure that people feel that they can contribute effectively. Below is a summary of the results in a format similar to previous years' surveys.
+
+## 2024 Activity
+
+Last year...
+
+- 1622 PRs were opened against the master branch (compared to 1553 PRs in 2023, 1923 PRs in 2022, 1948 PRs in 2021, 2066 PRs in 2020, 1890 PRs in 2019, 2008 PRs in 2018, 1778 PRs in 2017)
+- ... 1125 PRs were merged against master (1093 PRs in 2023, 1296 PRs in 2022, 1406 PRs in 2021, 1416 PRs in 2020, 1226 PRs in 2019, 1254 PRs in 2018, 1161 PRs in 2017)
+
+![Graph of the number of PRs opened and merged against master](/images/2025_coredev_retro/2025_graph_prs_opened_merged.png)
+
+- ... from 256 unique PR authors (249 in 2023, 255 in 2022, 297 in 2021, 268 in 2020, 274 in 2019, 352 in 2018, 291 in 2017)
+- ... including 170 first-time authors (159 in 2023, 153 in 2022, 188 in 2021, 164 in 2020, 179 in 2019, 261 in 2018, 215 in 2017)
+![Graph of the number of unique and first-time PR authors](/images/2025_coredev_retro/2025_graph_authors.png)
+
+- ... there were 39271 review comments (32830 in 2023, 33771 in 2022, 36413 in 2021, 42075 in 2020, 32256 in 2019, 32016 in 2018, 27324 in 2017)
+- ... from 49 regular reviewers* (45 in 2023, 52 in 2022, 51 in 2021, 45 in 2020, 41 in 2019, 36 in 2018, 28 in 2017)
+- ...and 228 first-time reviewers (246 in 2023, 239 in 2022, 258 in 2021, 235 in 2020, 202 in 2019, 277 in 2018, 254 in 2017)
+![Graph of the number of review comments](/images/2025_coredev_retro/2025_graph_review.png)
+
+*A regular reviewer must have left >= 100 comments
+
+## The Questions
+
+The questionnaire consisted of 14 questions, which included:
+
+- How happy were you with progress in Bitcoin Core in 2024? (score 1-5 with comment. 1 = unhappy, 5 = happy)
+- How happy were you with your own contributions? (score 1-5 with comment. 1 = unhappy, 5 = happy)
+- What went well in 2024?
+- Is there anything that frustrated or disappointed you about the Bitcoin Core project or your own contributions in 2024?
+- What do you hope will happen in Bitcoin Core in 2025?
+- What do you personally hope to achieve with Bitcoin Core in 2025?
+- Is there anything you'd change about the process/project that would help those things happen?
+- What one thing would make you happier or more productive working on Bitcoin Core?
+- How connected do you feel to the other contributors of the project?
+- Would you be willing to mentor another contributor?
+- What aspect of Bitcoin or Bitcoin Core would you like to learn more about?
+- What topics would you like to discuss at the next CoreDev event?
+
+## The responses
+
+37 contributors completed the survey, showing increased participation from the previous year's 25 responses.
+
+When asked to rate how happy they were with the project in 2024 (on a scale of 1-5), the mean was 3.92 (4.00 in 2023, 3.70 in 2022, 3.71 in 2021, 3.77 in 2020, 4.00 in 2019), and the median remained steady at 4 (it's been 4 every year since 2019!).
+
+### Highlights from 2024
+
+- CMake migration advances +12
+- Security disclosures +4
+- Package relay progress +3
+- Cluster mempool development +3
+- Multiprocess development +3
+- Improved fuzzing coverage +2
+- Enhanced RBF policies +2
+- Libbitcoinkernel progress +2
+- P2P enhancements +1
+- BIP324 enabled by default +1
+- Silent Payments implementation
+
+### Personal Satisfaction and Growth
+
+When asked to rate how happy the respondents were with their personal 2024 contribution (on a scale of 1-5), the mean slightly decreased to 3.54 (3.64 in 2023, 3.59 in 2022, 3.54 in 2021), while the median maintained at 4 (4 in 2023, 4 in 2022, 4 in 2021).
+
+### Areas of frustration/disappointment in 2024
+
+- Review bottlenecks/lack of reviewers +10
+- Testing infrastructure challenges +8
+- Project pace concerns +3
+- Process/workflow issues +3
+- Build system complexity +3
+- Documentation gaps +2
+- Technical debt management +1
+- GitHub-related issues +1
+
+### Regarding Goals/Priorities for 2025
+
+High priority items mentioned by contributors include:
+
+- Cluster mempool completion and deployment +9
+- Enhanced wallet functionality +9
+- Testing infrastructure improvements +8
+- Security hardening initiatives +2
+- P2P layer improvements +2
+- Build system modernization +1
+
+### Changes to improve the process/project
+
+Contributors suggested several improvements:
+
+- Streamlined review process +7
+- Enhanced CI/CD pipeline +4
+- Communication and coordination +3
+- Improved onboarding for new contributors/mentoring +3
+- Regular technical deep-dive sessions +2
+- Project management/prioritization +2
+
+### Mentorship
+
+When asked whether they would be willing to mentor:
+
+- 73% responded "yes, that is of interest"
+- 27% answered "no, it wasn't for them"
+
+### Interested in Learning More About
+
+- Advanced mempool dynamics +6
+- Network layer optimizations +6
+- Cryptographic implementations +5
+- Script improvements/covanants +4
+- Wallet internals +4
+- Testing methodologies +1
+- Consensus +1
+- Multiprocess +1
+- Lightning +1
+- Validation +1
+- Build system architecture
+
+### Review Process Challenges
+
+The frustrations around review could be broken down into a few buckets:
+
+#### Review Availability and Pace +10
+
+Contributors consistently highlighted the gap between available review capacity and project needs. As one contributor noted, "Overall I'm quite happy about the past year with my contributions, though PRs taking a long time to get reviewed and merged can sometimes be frustrating... this is a direct result of the 'we need more review power' problem." Another observed that while "the pace of the project has improved... still there is a lack of reviewers."
+
+#### Review Depth vs. Breadth +3
+
+Several contributors highlighted the tension between review quantity and quality. One reviewer noted their struggle: "I ended up having to spend a good amount of time in understanding the context due to which I had to limit myself reviewing smaller PRs. But now I want to be able to review bigger, meatier PRs." This reflects a broader challenge of balancing thorough, in-depth reviews with the need to maintain review velocity.
+
+#### Priority and Communication +4
+
+A recurring theme was the need for better communication around review priorities. Contributors expressed frustration when working on projects that seemed to have broad conceptual support but couldn't gather sufficient review attention. As one contributor explained: "It's a bit frustrating when everyone agrees that the project you're pushing forward is a good idea, but after spending some time working on it, you realize there is no review power to make it happen."
+
+#### Feedback Quality +2
+
+The survey revealed nuanced challenges around review feedback. There were concerns about the balance between constructive criticism and maintaining momentum, with one contributor noting: "When providing scepticism in review comments, some weren't received well... While at the same time people were asking for more NACKs, I see that it is a thin line I am balancing on."
+
+## Till next year...
+
+Thank you to all 37 contributors who took the time to respond to this survey. I look forward to reporting on a similar survey in early 2026.
