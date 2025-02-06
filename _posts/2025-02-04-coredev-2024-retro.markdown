@@ -144,6 +144,10 @@ A recurring theme was the need for better communication around review priorities
 
 The survey revealed nuanced challenges around review feedback. There were concerns about the balance between constructive criticism and maintaining momentum, with one contributor noting: "When providing scepticism in review comments, some weren't received well... While at the same time people were asking for more NACKs, I see that it is a thin line I am balancing on."
 
+## Special thanks
+
+Thanks to Mike Schmidt for resurrecting [Bitcoin Core stats](https://github.com/bitschmidty/bitcoin-core-contributor-stats), which I used to pull the numbers for this report.
+
 ## Till next year...
 
 Thank you to all 37 contributors who took the time to respond to this survey. I look forward to reporting on a similar survey in early 2026.
