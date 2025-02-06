@@ -9,7 +9,7 @@ image:
 
 For a sixth year running, regular Bitcoin Core contributors received a survey to surface priorities and ensure that people feel that they can contribute effectively. Below is a summary of the results in a format similar to previous years' surveys.
 
-## 2023 Activity
+## 2024 Activity
 
 Last year...
 
@@ -54,16 +54,17 @@ When asked to rate how happy they were with the project in 2024 (on a scale of 1
 
 ### Highlights from 2024
 
-- CMake migration advances +13
-- Package relay progress +4
-- Cluster mempool development +4
-- Improved fuzzing coverage +3
-- Enhanced RBF policies +3
-- BIP324 enabled by default +2
-- Multiprocess development +4
-- Libbitcoinkernel progress +3
-- P2P enhancements +2
-- Silent Payments implementation +1
+- CMake migration advances +12
+- Security disclosures +4
+- Package relay progress +3
+- Cluster mempool development +3
+- Multiprocess development +3
+- Improved fuzzing coverage +2
+- Enhanced RBF policies +2
+- Libbitcoinkernel progress +2
+- P2P enhancements +1
+- BIP324 enabled by default +1
+- Silent Payments implementation
 
 ### Personal Satisfaction and Growth
 
@@ -71,37 +72,36 @@ When asked to rate how happy the respondents were with their personal 2024 contr
 
 ### Areas of frustration/disappointment in 2024
 
-- Review bottlenecks +11
-- Testing infrastructure challenges +9
-- Project pace concerns +4
-- Process/workflow issues +4
-- Build system complexity +4
-- Documentation gaps +3
-- Technical debt management +2
-- Lack of reviewers +2
-- GitHub-related issues +2
+- Review bottlenecks/lack of reviewers +10
+- Testing infrastructure challenges +8
+- Project pace concerns +3
+- Process/workflow issues +3
+- Build system complexity +3
+- Documentation gaps +2
+- Technical debt management +1
+- GitHub-related issues +1
 
 ### Regarding Goals/Priorities for 2025
 
 High priority items mentioned by contributors include:
 
-- Cluster mempool completion and deployment +10
-- Enhanced wallet functionality +10
-- Testing infrastructure improvements +9
-- Security hardening initiatives +3
-- P2P layer improvements +3
-- Build system modernization +2
+- Cluster mempool completion and deployment +9
+- Enhanced wallet functionality +9
+- Testing infrastructure improvements +8
+- Security hardening initiatives +2
+- P2P layer improvements +2
+- Build system modernization +1
 
 ### Changes to improve the process/project
 
 Contributors suggested several improvements:
 
-- Streamlined review process +8
-- Enhanced CI/CD pipeline +5
-- Communication and coordination +4
-- Improved onboarding for new contributors/mentoring +4
-- Regular technical deep-dive sessions +3
-- Project management/prioritization +3
+- Streamlined review process +7
+- Enhanced CI/CD pipeline +4
+- Communication and coordination +3
+- Improved onboarding for new contributors/mentoring +3
+- Regular technical deep-dive sessions +2
+- Project management/prioritization +2
 
 ### Mentorship
 
@@ -112,51 +112,35 @@ When asked whether they would be willing to mentor:
 
 ### Interested in Learning More About
 
-- Advanced mempool dynamics +7
-- Network layer optimizations +7
-- Cryptographic implementations +6
-- Script improvements/covanants +5
-- Wallet internals +5
-- Testing methodologies +2
-- Build system architecture +1
-- Consensus +2
-- Multiprocess +2
-- Lightning +2
-- Validation +2
-
-### Topics for the next CoreDev
-
-Suggested discussion topics included:
-
-- Process improvements +9
-- Testing infrastructure +7
-- Silent Payments +5
-- Multiprocess +5
-- Cluster mempool implementation details +4
-- Covenants +4
-- Package Relay +3
-- Libbitcoinkernel +2
-- Qt improvements +2
-- Wallet architecture improvements +1
-- Build system modernization +1
+- Advanced mempool dynamics +6
+- Network layer optimizations +6
+- Cryptographic implementations +5
+- Script improvements/covanants +4
+- Wallet internals +4
+- Testing methodologies +1
+- Consensus +1
+- Multiprocess +1
+- Lightning +1
+- Validation +1
+- Build system architecture
 
 ### Review Process Challenges
 
 The frustrations around review could be broken down into a few buckets:
 
-#### Review Availability and Pace +11
+#### Review Availability and Pace +10
 
 Contributors consistently highlighted the gap between available review capacity and project needs. As one contributor noted, "Overall I'm quite happy about the past year with my contributions, though PRs taking a long time to get reviewed and merged can sometimes be frustrating... this is a direct result of the 'we need more review power' problem." Another observed that while "the pace of the project has improved... still there is a lack of reviewers."
 
-#### Review Depth vs. Breadth +4
+#### Review Depth vs. Breadth +3
 
 Several contributors highlighted the tension between review quantity and quality. One reviewer noted their struggle: "I ended up having to spend a good amount of time in understanding the context due to which I had to limit myself reviewing smaller PRs. But now I want to be able to review bigger, meatier PRs." This reflects a broader challenge of balancing thorough, in-depth reviews with the need to maintain review velocity.
 
-#### Priority and Communication +5
+#### Priority and Communication +4
 
 A recurring theme was the need for better communication around review priorities. Contributors expressed frustration when working on projects that seemed to have broad conceptual support but couldn't gather sufficient review attention. As one contributor explained: "It's a bit frustrating when everyone agrees that the project you're pushing forward is a good idea, but after spending some time working on it, you realize there is no review power to make it happen."
 
-#### Feedback Quality +3
+#### Feedback Quality +2
 
 The survey revealed nuanced challenges around review feedback. There were concerns about the balance between constructive criticism and maintaining momentum, with one contributor noting: "When providing scepticism in review comments, some weren't received well... While at the same time people were asking for more NACKs, I see that it is a thin line I am balancing on."
 
