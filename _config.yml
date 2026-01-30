@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Bitcoin is for all of us
-email: jonas at chaincode.com
+title: Adam Jonas
+email:
 description: >- # this means to ignore newlines until "baseurl:"
 github_username:  adamjonas
 
@@ -69,7 +69,7 @@ skin: "/assets/css/skins/default.css"
 locale: en-US
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://adamjonas.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: /images/fiat-globe.jpg # path of site logo, e.g. "/images/logo.png"
+logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: false # reading time estimates, e.g. true
 words_per_minute: 200
@@ -141,7 +141,7 @@ defaults:
 author:
   name: Adam Jonas
   picture: # /images/jonas.jpg
-  email: jonas at chaincode.com
+  email:
   twitter: adamcjonas
   links:
     - title: Twitter
